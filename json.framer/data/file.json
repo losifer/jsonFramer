@@ -1,0 +1,59 @@
+{
+"users": [
+{
+"name": "Roger Smith",
+"role": "Designer",
+"image": "../images/person.jpg"
+},
+{
+"name": "Dave Smith",
+"role": "Developer",
+"image": "../images/person.jpg"
+},
+{
+"name": "Angel Smith",
+"role": "PM",
+"image": "../images/person.jpg"
+},
+{
+"name": "Craig Smith",
+"role": "Director",
+"image": "../images/person.jpg"
+},
+{
+"name": "Toby Smith",
+"role": "Designer 2",
+"image": "../images/person.jpg"
+},
+{
+"name": "Brian Smith",
+"role": "UX",
+"image": "../images/person.jpg"
+},
+{
+"name": "Sadie Smith",
+"role": "Developer",
+"image": "../images/person.jpg"
+},
+{
+"name": "Greg Smith",
+"role": "CD",
+"image": "../images/person.jpg"
+},
+{
+"name": "Taylor Smith",
+"role": "Designer",
+"image": "../images/person.jpg"
+},
+{
+"name": "Carrol Smith",
+"role": "Designer",
+"image": "../images/person.jpg"
+},
+{
+"name": "Edgar Smith",
+"role": "Designer",
+"image": "../images/person.jpg"
+}
+]
+}
