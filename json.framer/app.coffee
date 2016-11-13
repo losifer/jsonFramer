@@ -33,10 +33,10 @@ for user, i in users
 		<style>
 		/* User Uservich: */
 		user {
-		font-family: SFUIText-Heavy;
-		font-size: 48px;
+		font-family: SFUIText-Light;
+		font-size: 34px;
 		color: #F00;
-		letter-spacing: 0;
+		line-height: 1
 		}
 		</style>
 		

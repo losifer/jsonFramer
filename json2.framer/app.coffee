@@ -23,6 +23,7 @@ users = data["users"]
 topBar = new Layer
 	width: Screen.width
 	height: 128
+	backgroundColor: "#DEE"
 
 for user, i in users
 	name = user.name
@@ -46,11 +47,10 @@ for user, i in users
 			padding-left: 30px;
 			}
 			role {
-			font-family: SFUIText-Medium;
+			font-family: SFUIText-Light;
 			display: block;
 			font-size: 35px;
 			color: #888;
-			padding-top: 5px;
 			padding-left: 30px;
 			}
 			thumb {
@@ -75,7 +75,9 @@ for user, i in users
 				margin: 30px 0 0 0;
 			}
 			</style>
-			<thumb></thumb>
+			<thumb>
+			
+			</thumb>
 			<txt>
 			<user>#{name}</user>
 			<br />
@@ -91,7 +93,7 @@ scroll = ScrollComponent.wrap(list)
 scroll.speedX = 0
 
 scroll.contentInset = 
-	top: 6
+	top: 134
 	bottom: 6
 	
 
