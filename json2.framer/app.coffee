@@ -24,6 +24,20 @@ topBar = new Layer
 	width: Screen.width
 	height: 128
 	backgroundColor: "#DEE"
+	html: """
+		<style>
+		ttl {
+			width: 750px;
+			display: block;
+			padding-top: 45px;
+			color: #779999;
+			font-size: 40px;
+			font-weight: 800;
+			text-align: center
+			}
+		</style>
+		<ttl>Contacts</ttl>
+		"""
 
 for user, i in users
 	name = user.name
@@ -75,9 +89,7 @@ for user, i in users
 				margin: 30px 0 0 0;
 			}
 			</style>
-			<thumb>
-			
-			</thumb>
+			<thumb></thumb>
 			<txt>
 			<user>#{name}</user>
 			<br />
@@ -87,6 +99,17 @@ for user, i in users
 	panel.style = 
 	"background-color": "#FFF"
 	"border-bottom" : "1px solid #CCC"
+	thumb = new Layer
+		superLayer: panel
+		height: 120
+		width: 120
+		x: 22
+		y: 40
+		image: "#{image}"
+		borderRadius: 100
+		borderColor: "#EEE"
+		borderWidth: 5
+
 			
 			
 scroll = ScrollComponent.wrap(list)
