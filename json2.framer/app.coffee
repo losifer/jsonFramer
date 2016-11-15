@@ -23,21 +23,26 @@ users = data["users"]
 topBar = new Layer
 	width: Screen.width
 	height: 128
-	backgroundColor: "#DEE"
+	backgroundColor: 'rgba(240, 240, 240, 0.4)'
+	borderColor: "#CCC"
+	borderWidth: 1
+	opacity: 1
 	html: """
 		<style>
 		ttl {
 			width: 750px;
 			display: block;
 			padding-top: 45px;
-			color: #779999;
+			color: #335555;
 			font-size: 40px;
 			font-weight: 800;
-			text-align: center
+			text-align: center;
 			}
 		</style>
 		<ttl>Contacts</ttl>
 		"""
+topBar.style = 
+	"box-shadow" : "0px 4px 3px rgba(0,0,0,0.03)"
 
 for user, i in users
 	name = user.name
